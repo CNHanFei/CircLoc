@@ -1,6 +1,6 @@
-# PLSM
+# CircLoc
 
-PLSM is designed to predict the subcellular localization of circRNAs. It employs multiple circRNA characteristics to extract informative circRNA features, including circRNA sequence similarity networks, circRNA-disease, circRNA-drug, and circRNA-miRNA association networks. Robust algorithms (node2vec and graph attention autoencoders) and a newly designed scheme are adopted to generate circRNA feature types. These features are fed into a self-attention layer and fully connected layers for prediction.
+CircLoc is designed to predict the subcellular localizations of circRNAs. It employs circRNA sequence and network information, from which informative circRNA features are extracted via traditional methods (e.g. k-mer), large language model (RNAErnie), and network representation learning algorithms (e.g. node2vec, graph attention auto-encoder). These features are processed by a self-attention layer and finally fed into a fully connected layers for prediction.
 
 ![image](./image.png)
 
